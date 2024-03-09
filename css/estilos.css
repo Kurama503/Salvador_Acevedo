@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(../img/imagen01.png);
+    background-size: auto;
+    background-position: top;/**bottom right left top**/
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    
+
+#menu {
+    background-color: rgb(37, 118, 119);
+    text-align: center;
+
+
+}
+#menu ul {
+    display: inline-flex;
+}
+#menu ul li {
+    padding: 15px;
+    white-space: 155px;
+    list-style: none;
+    
+}
+#menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+#menu ul li:hover {
+    background-color: rgb(105, 163, 144);
+    border-radius: 20px;
+}
